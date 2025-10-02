@@ -669,6 +669,14 @@ body {
     
     .skills-grid {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        justify-items: center;
+    }
+    
+    .skill-item {
+        width: 100%;
+        max-width: 120px;
+        text-align: center;
+        justify-content: center;
     }
     
     .experience-item {
@@ -725,6 +733,15 @@ body {
     
     .skills-grid {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        justify-items: center;
+        gap: 1rem;
+    }
+    
+    .skill-item {
+        width: 100%;
+        max-width: 100px;
+        text-align: center;
+        justify-content: center;
     }
     
     .floating-btn {
